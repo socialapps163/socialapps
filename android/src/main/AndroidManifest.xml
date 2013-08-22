@@ -87,13 +87,13 @@
         <!-- Activities for both phones and tablets -->
 
         <activity
-            android:name=".ui.AccountActivity"
+            android:name="com.google.android.apps.iosched.ui.AccountActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.IOSched.Accounts"
             android:configChanges="orientation|keyboardHidden" />
 
         <activity
-            android:name=".ui.HomeActivity"
+            android:name="com.google.android.apps.iosched.ui.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.IOSched.Home">
             <intent-filter>
@@ -103,7 +103,18 @@
         </activity>
 
         <activity
-            android:name=".ui.SocialStreamActivity"
+                android:name="com.funyoung.stackmob.ui.SocialStreamActivity"
+                android:label="@string/app_name"
+                android:icon="@drawable/ic_action_map"
+                android:theme="@style/Theme.IOSched.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.google.android.apps.iosched.ui.SocialStreamActivity"
             android:label="@string/title_tagstream"
             android:theme="@style/Theme.IOSched.PlusStream"
             android:parentActivityName=".ui.HomeActivity">
@@ -112,7 +123,7 @@
         </activity>
 
         <activity
-            android:name=".ui.AnnouncementsActivity"
+            android:name="com.google.android.apps.iosched.ui.AnnouncementsActivity"
             android:label="@string/title_announcements"
             android:theme="@style/Theme.IOSched.PlusStream"
             android:parentActivityName=".ui.HomeActivity">
@@ -121,7 +132,7 @@
         </activity>
 
         <activity
-            android:name=".ui.SearchActivity"
+            android:name="com.google.android.apps.iosched.ui.SearchActivity"
             android:label="@string/title_search"
             android:launchMode="singleTop"
             android:theme="@style/Theme.IOSched.GreyBackground"
@@ -135,7 +146,7 @@
                 android:value=".ui.HomeActivity" />
         </activity>
 
-        <activity android:name=".ui.SessionLivestreamActivity"
+        <activity android:name="com.google.android.apps.iosched.ui.SessionLivestreamActivity"
             android:label="@string/session_livestream_title"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.IOSched.Livestream"
@@ -149,7 +160,7 @@
         </activity>
 
         <activity
-            android:name=".ui.SettingsActivity"
+            android:name="com.google.android.apps.iosched.ui.SettingsActivity"
             android:label="@string/title_settings"
             android:theme="@style/Theme.IOSched"
             android:parentActivityName=".ui.HomeActivity">
@@ -158,7 +169,7 @@
         </activity>
 
         <activity
-            android:name=".ui.NfcBadgeActivity"
+            android:name="com.google.android.apps.iosched.ui.NfcBadgeActivity"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter android:priority="-999">
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -170,7 +181,7 @@
         <!-- Phone-only activities -->
 
         <activity
-            android:name=".ui.phone.SessionsActivity"
+            android:name="com.google.android.apps.iosched.ui.phone.SessionsActivity"
             android:label="@string/title_sessions"
             android:parentActivityName=".ui.HomeActivity">
             <intent-filter>
@@ -187,7 +198,7 @@
         </activity>
 
         <activity
-            android:name=".ui.phone.TrackDetailActivity"
+            android:name="com.google.android.apps.iosched.ui.phone.TrackDetailActivity"
             android:label="@string/title_tracks"
             android:theme="@style/Theme.IOSched.GreyBackground"
             android:parentActivityName=".ui.HomeActivity">
@@ -202,7 +213,7 @@
                 android:value="handset" />
         </activity>
 
-        <activity android:name=".ui.phone.SessionDetailActivity"
+        <activity android:name="com.google.android.apps.iosched.ui.phone.SessionDetailActivity"
             android:label="@string/title_session_detail"
             android:uiOptions="splitActionBarWhenNarrow"
             android:parentActivityName=".ui.phone.SessionsActivity">
@@ -233,7 +244,7 @@
                 android:value="handset" />
         </activity>
 
-        <activity android:name=".ui.SessionFeedbackActivity"
+        <activity android:name="com.google.android.apps.iosched.ui.SessionFeedbackActivity"
             android:label="@string/title_session_feedback">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -246,7 +257,7 @@
         </activity>
 
 
-        <activity android:name=".ui.phone.SandboxDetailActivity"
+        <activity android:name="com.google.android.apps.iosched.ui.phone.SandboxDetailActivity"
             android:label="@string/title_sandbox_detail"
             android:parentActivityName=".ui.phone.TrackDetailActivity">
             <intent-filter>
@@ -262,7 +273,7 @@
         </activity>
 
         <activity
-            android:name=".ui.phone.MapActivity"
+            android:name="com.google.android.apps.iosched.ui.phone.MapActivity"
             android:label="@string/title_map"
             android:configChanges="orientation|keyboardHidden"
             android:parentActivityName=".ui.HomeActivity">
@@ -275,7 +286,7 @@
         <!-- Tablet-only activities -->
 
         <activity
-            android:name=".ui.tablet.SessionsSandboxMultiPaneActivity"
+            android:name="com.google.android.apps.iosched.ui.tablet.SessionsSandboxMultiPaneActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.IOSched.GreyBackground"
             android:parentActivityName=".ui.HomeActivity">
@@ -329,7 +340,7 @@
         </activity>
 
         <activity
-            android:name=".ui.tablet.MapMultiPaneActivity"
+            android:name="com.google.android.apps.iosched.ui.tablet.MapMultiPaneActivity"
             android:label="@string/title_map"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:parentActivityName=".ui.HomeActivity">
@@ -342,18 +353,18 @@
         <!-- TaskStackBuilder proxy activity for widgets and notifications. -->
 
         <activity
-            android:name=".ui.TaskStackBuilderProxyActivity"
+            android:name="com.google.android.apps.iosched.ui.TaskStackBuilderProxyActivity"
             android:theme="@android:style/Theme.NoDisplay" />
 
         <!-- Session alarm/calendar integrating components. -->
-        <receiver android:name=".receiver.SessionAlarmReceiver" >
+        <receiver android:name="com.google.android.apps.iosched.receiver.SessionAlarmReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="com.google.android.apps.iosched.action.UPDATE_CALENDAR_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".service.SessionAlarmService" />
+        <service android:name="com.google.android.apps.iosched.service.SessionAlarmService" />
 
         <!-- Used for install referral measurement-->
         <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
@@ -372,14 +383,14 @@
           The com.google.android.c2dm.permission.SEND permission is necessary
           so only GCM services can send data messages for the app.
         -->
-        <receiver android:name=".gcm.GCMRedirectedBroadcastReceiver"
+        <receiver android:name="com.google.android.apps.iosched.gcm.GCMRedirectedBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <!-- Receives the actual messages. -->
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <!-- Receives the registration id. -->
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="com.google.android.apps.iosched" />
+                <category android:name="com.funyoung.android.spiders" />
             </intent-filter>
         </receiver>
 
@@ -390,21 +401,21 @@
           By default, it must be named .GCMIntentService, unless the
           application uses a custom BroadcastReceiver that redefines its name.
         -->
-        <service android:name=".gcm.GCMIntentService" />
+        <service android:name="com.google.android.apps.iosched.gcm.GCMIntentService" />
 
         <!-- Data, sync and schedule editing components -->
 
         <provider
-            android:name=".provider.ScheduleProvider"
-            android:authorities="com.google.android.apps.iosched"
+            android:name="com.google.android.apps.iosched.provider.ScheduleProvider"
+            android:authorities="com.funyoung.android.spiders"
             android:writePermission="com.google.android.apps.iosched.permission.WRITE_SCHEDULE"
             android:syncable="true"
             android:label="@string/app_name"
             android:exported="true" />
 
-        <service android:name=".service.ScheduleUpdaterService" />
+        <service android:name="com.google.android.apps.iosched.service.ScheduleUpdaterService" />
 
-        <service android:name=".sync.SyncService"
+        <service android:name="com.google.android.apps.iosched.sync.SyncService"
             android:exported="true"
             tools:ignore="ExportedService">
             <intent-filter>
@@ -416,7 +427,7 @@
 
         <!-- a simple receiver that triggers a sync for any message it receives. used by our
              GCM implementation -->
-        <receiver android:name=".sync.TriggerSyncReceiver" />
+        <receiver android:name="com.google.android.apps.iosched.sync.TriggerSyncReceiver" />
 
         <!-- Other manifest items -->
 
@@ -426,7 +437,7 @@
 
         <!-- App widget components -->
 
-        <receiver android:name=".appwidget.ScheduleWidgetProvider"
+        <receiver android:name="com.google.android.apps.iosched.appwidget.ScheduleWidgetProvider"
             android:enabled="@bool/has_honeycomb">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -438,13 +449,13 @@
 
         <!-- The service serving the RemoteViews to the collection widget -->
 
-        <service android:name=".appwidget.ScheduleWidgetRemoteViewsService"
+        <service android:name="com.google.android.apps.iosched.appwidget.ScheduleWidgetRemoteViewsService"
             android:permission="android.permission.BIND_REMOTEVIEWS"
             android:exported="false"
             android:enabled="@bool/has_honeycomb" />
 
         <!-- DashClock extension -->
-        <service android:name=".service.DashClockExtension"
+        <service android:name="com.google.android.apps.iosched.service.DashClockExtension"
             android:icon="@drawable/dashclock_extension"
             android:label="@string/app_name"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">

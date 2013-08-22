@@ -1,0 +1,186 @@
+java/com/google/android/apps/iosched/
+├── Config.java
+├── appwidget
+│   ├── ScheduleWidgetProvider.java
+│   └── ScheduleWidgetRemoteViewsService.java
+├── gcm
+│   ├── GCMCommand.java
+│   ├── GCMIntentService.java
+│   ├── GCMRedirectedBroadcastReceiver.java
+│   ├── ServerUtilities.java
+│   └── command
+│       ├── AnnouncementCommand.java
+│       ├── SyncCommand.java
+│       ├── SyncUserCommand.java
+│       └── TestCommand.java
+├── io
+│   ├── AnnouncementsFetcher.java
+│   ├── BlocksHandler.java
+│   ├── FeedbackHandler.java
+│   ├── HandlerException.java
+│   ├── JSONHandler.java
+│   ├── MapPropertyHandler.java
+│   ├── RoomsHandler.java
+│   ├── SearchSuggestHandler.java
+│   ├── SessionsHandler.java
+│   ├── SpeakersHandler.java
+│   ├── TracksHandler.java
+│   ├── map
+│   │   └── model
+│   │       ├── MapConfig.java
+│   │       ├── MapResponse.java
+│   │       ├── Marker.java
+│   │       └── Tile.java
+│   └── model
+│       ├── Day.java
+│       ├── EventSlots.java
+│       ├── Room.java
+│       ├── Rooms.java
+│       ├── SearchSuggestions.java
+│       ├── TimeSlot.java
+│       ├── Track.java
+│       └── Tracks.java
+├── provider
+│   ├── ScheduleContract.java
+│   ├── ScheduleDatabase.java
+│   └── ScheduleProvider.java
+├── receiver
+│   └── SessionAlarmReceiver.java
+├── service
+│   ├── DashClockExtension.java
+│   ├── ScheduleUpdaterService.java
+│   └── SessionAlarmService.java
+├── sync
+│   ├── SyncAdapter.java
+│   ├── SyncHelper.java
+│   ├── SyncService.java
+│   └── TriggerSyncReceiver.java
+├── ui
+│   ├── AccountActivity.java
+│   ├── AnnouncementsActivity.java
+│   ├── AnnouncementsFragment.java
+│   ├── BaseActivity.java
+│   ├── CheckableLinearLayout.java
+│   ├── ExploreFragment.java
+│   ├── HomeActivity.java
+│   ├── MapFragment.java
+│   ├── MapInfoWindowAdapter.java
+│   ├── MultiSelectionUtil.java
+│   ├── NfcBadgeActivity.java
+│   ├── PlusStreamRowViewBinder.java
+│   ├── SVGTileProvider.java
+│   ├── SandboxDetailFragment.java
+│   ├── SandboxFragment.java
+│   ├── ScheduleFragment.java
+│   ├── SearchActivity.java
+│   ├── SessionDetailFragment.java
+│   ├── SessionFeedbackActivity.java
+│   ├── SessionFeedbackFragment.java
+│   ├── SessionLivestreamActivity.java
+│   ├── SessionsFragment.java
+│   ├── SettingsActivity.java
+│   ├── SimpleSectionedListAdapter.java
+│   ├── SimpleSinglePaneActivity.java
+│   ├── SocialStreamActivity.java
+│   ├── SocialStreamFragment.java
+│   ├── TaskStackBuilderProxyActivity.java
+│   ├── TrackInfo.java
+│   ├── TrackInfoHelperFragment.java
+│   ├── TracksAdapter.java
+│   ├── WhatsOnFragment.java
+│   ├── phone
+│   │   ├── MapActivity.java
+│   │   ├── SandboxDetailActivity.java
+│   │   ├── SessionDetailActivity.java
+│   │   ├── SessionsActivity.java
+│   │   └── TrackDetailActivity.java
+│   ├── tablet
+│   │   ├── MapMultiPaneActivity.java
+│   │   ├── SessionsSandboxMultiPaneActivity.java
+│   │   └── TracksDropdownFragment.java
+│   └── widget
+│       ├── BezelImageView.java
+│       ├── CheckableFrameLayout.java
+│       ├── EllipsizedTextView.java
+│       └── ObservableScrollView.java
+└── util
+    ├── AccountUtils.java
+    ├── BeamUtils.java
+    ├── BitmapCache.java
+    ├── FractionalTouchDelegate.java
+    ├── HelpUtils.java
+    ├── ImageLoader.java
+    ├── Lists.java
+    ├── LogUtils.java
+    ├── MapUtils.java
+    ├── Maps.java
+    ├── NetUtils.java
+    ├── ParserUtils.java
+    ├── PlayServicesUtils.java
+    ├── PrefUtils.java
+    ├── ReflectionUtils.java
+    ├── SelectionBuilder.java
+    ├── SessionsHelper.java
+    ├── TimeUtils.java
+    ├── UIUtils.java
+    └── WiFiUtils.java
+
+16 directories, 109 files
+
+Components:
+Config.java  -- configuration items
+appwidget    --
+gcm          -- sending notifications
+io           --
+provider     --
+receiver     --
+service      --
+sync         --
+ui           --
+util         -- helper classes
+
+Manifest List
+Android API Level: min 10, target 18
+Defined permission
+Using permission
+Appliction component
+meta-data
+1. map  -- todo: change own api-key
+2. searchable
+receiver
+1. SessionAlarmReceiver
+2. CampaignTrackingReceiver
+3. GCMRedirectedBroadcastReceiver
+4. TriggerSyncReceiver
+5. ScheduleWidgetProvider
+service
+1. SessionAlarmService
+2. CampaignTrackingService
+3. GCMIntentService
+4. ScheduleUpdaterService
+5. SyncService
+6. ScheduleWidgetRemoteViewsService
+7. DashClockExtension
+provider
+1. ScheduleProvider
+common activity
+1. AccountActivity
+2. HomeActivity
+3. SocialStreamActivity
+4. AnnouncementsActivity
+5. SearchActivity
+6. SessionLivestreamActivity
+7. SettingsActivity
+8. NfcBadgetActivity
+phone only
+a. SessionActivity
+b. TrackDetailActivity
+c. SessionDetailActivity
+d. SessionFeedbackActivity
+e. SandboxDetailActivity
+f. MapActivity
+tablet only
+a. SessionSandboxMultipaneActivity
+b. MapMultiPaneActivity
+c. TaskStackBuilderProxyActivity
+
