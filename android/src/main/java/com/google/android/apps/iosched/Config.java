@@ -22,8 +22,8 @@ public class Config {
 
     // OAuth 2.0 related config
     public static final String APP_NAME = "GoogleIO-Android";
-    // TODO: Add your Google API key here.
-    public static final String API_KEY = "YOUR_API_KEY_HERE";
+    // socialapps163@gmail.com: Add your Google API key here.
+    public static final String API_KEY = "AIzaSyDPMMTvqnux9jgDG1rsaTD6TOOPzA5i5y4";
 
     // Conference API-specific config
     public static final String EVENT_ID = "googleio2013";
