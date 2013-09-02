@@ -24,7 +24,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 
 import com.google.android.apps.iosched.Config;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.provider.ScheduleContract.Sessions;
 import com.google.android.apps.iosched.provider.ScheduleContract.SyncColumns;

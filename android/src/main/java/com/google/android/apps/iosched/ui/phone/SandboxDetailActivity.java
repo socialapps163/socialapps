@@ -22,7 +22,7 @@ import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.ui.*;
 import com.google.android.apps.iosched.ui.SandboxDetailFragment;

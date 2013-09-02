@@ -14,7 +14,7 @@
   limitations under the License.
   -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:iosched="http://schemas.android.com/apk/res/com.google.android.apps.iosched"
+    xmlns:iosched="http://schemas.android.com/apk/res/com.social.android.apps"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">

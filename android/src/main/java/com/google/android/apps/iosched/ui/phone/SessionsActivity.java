@@ -25,7 +25,7 @@ import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.ui.SessionsFragment;
 import com.google.android.apps.iosched.ui.SimpleSinglePaneActivity;

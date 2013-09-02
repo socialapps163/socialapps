@@ -18,7 +18,7 @@ package com.google.android.apps.iosched.service;
 
 import android.graphics.Bitmap;
 import android.provider.BaseColumns;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.ui.HomeActivity;
 import com.google.android.apps.iosched.ui.MapFragment;
@@ -134,7 +134,7 @@ public class SessionAlarmService extends IntentService {
                 SessionAlarmService.class);
         // Setting data to ensure intent's uniqueness for different session start times.
         notifIntent.setData(
-                new Uri.Builder().authority("com.google.android.apps.iosched")
+                new Uri.Builder().authority("com.social.android.apps")
                         .path(String.valueOf(sessionStart)).build());
         notifIntent.putExtra(SessionAlarmService.EXTRA_SESSION_START, sessionStart);
         notifIntent.putExtra(SessionAlarmService.EXTRA_SESSION_END, sessionEnd);

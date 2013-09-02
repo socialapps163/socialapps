@@ -21,7 +21,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 
 /**
  * Activity for customizing app settings.

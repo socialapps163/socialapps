@@ -20,7 +20,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuItem;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 
 public class SocialStreamActivity extends SimpleSinglePaneActivity {
     @Override

@@ -35,7 +35,7 @@ import android.widget.TextView;
 
 import com.google.analytics.tracking.android.EasyTracker;
 import com.google.android.apps.iosched.Config;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.util.ImageLoader;
 import com.google.android.apps.iosched.util.NetUtils;
 import com.google.android.apps.iosched.util.UIUtils;

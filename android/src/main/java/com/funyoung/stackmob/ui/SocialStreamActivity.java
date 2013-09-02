@@ -21,7 +21,7 @@ import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.funyoung.android.spiders.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.ui.SimpleSinglePaneActivity;
 import com.google.android.apps.iosched.ui.SocialStreamFragment;
 

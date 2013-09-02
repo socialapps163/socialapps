@@ -212,7 +212,7 @@ public class ScheduleContract {
         String TILE_URL = "map_tile_url";
     }
 
-    public static final String CONTENT_AUTHORITY = "com.google.android.apps.iosched";
+    public static final String CONTENT_AUTHORITY = "com.social.android.apps";
 
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 

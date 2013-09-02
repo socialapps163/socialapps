@@ -35,8 +35,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.R.drawable;
+import com.social.android.apps.R;
+import com.social.android.apps.R.drawable;
 import com.google.android.apps.iosched.util.ImageLoader;
 import com.google.api.services.plus.model.Activity;
 

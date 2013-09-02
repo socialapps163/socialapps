@@ -36,7 +36,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.google.analytics.tracking.android.EasyTracker;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.ui.TracksAdapter.TracksQuery;
 import com.google.android.apps.iosched.ui.tablet.SessionsSandboxMultiPaneActivity;

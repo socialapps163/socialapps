@@ -38,7 +38,7 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.apps.iosched.Config;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 
 import java.util.List;
 

@@ -23,7 +23,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.ui.MapFragment.MarkerModel;
 import com.google.android.apps.iosched.ui.widget.EllipsizedTextView;
 import com.google.android.gms.maps.GoogleMap;

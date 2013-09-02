@@ -24,7 +24,7 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 
 import com.google.android.apps.dashclock.api.ExtensionData;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.ui.HomeActivity;
 import com.google.android.apps.iosched.util.PrefUtils;

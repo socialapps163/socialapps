@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
 import com.google.analytics.tracking.android.EasyTracker;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.util.*;
 
 import static com.google.android.apps.iosched.util.LogUtils.makeLogTag;

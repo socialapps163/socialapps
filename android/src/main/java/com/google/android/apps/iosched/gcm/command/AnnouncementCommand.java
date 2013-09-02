@@ -20,7 +20,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.gcm.GCMCommand;
 import com.google.android.apps.iosched.ui.HomeActivity;
 

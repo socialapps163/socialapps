@@ -48,7 +48,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.google.analytics.tracking.android.EasyTracker;
-import com.google.android.apps.iosched.R;
+import com.social.android.apps.R;
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.util.MapUtils;
 import com.google.android.apps.iosched.util.ParserUtils;
